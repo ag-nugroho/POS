@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #4A90E2;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.status-label {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.success {
+    background-color: #28a745; /* Green for success */
+}
+
+.processing {
+    background-color: #fd7e14; /* Orange for processing */
+}
+
+.failed {
+    background-color: #dc3545; /* Red for failed */
+}
+
+.transaction-item {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
